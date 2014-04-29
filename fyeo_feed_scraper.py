@@ -12,6 +12,11 @@ from internetarchive import get_item
 import requests
 
 
+__author__ = 'Jake Johnson'
+__license__ = 'AGPL 3'
+__copyright__ = 'Copyright 2014 Internet Archive'
+
+
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
 fh = logging.FileHandler('fyeo_feed_scraper.log')
